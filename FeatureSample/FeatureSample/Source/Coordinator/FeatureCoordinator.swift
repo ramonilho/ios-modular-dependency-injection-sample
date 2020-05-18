@@ -13,8 +13,8 @@ public final class FeatureCoordinator: Coordinator {
     public func start(animated: Bool = true) {
         let viewController = FeatureViewController(coordinator: self)
         let nav = UINavigationController(rootViewController: viewController)
-        nav.navigationBar.isHidden = true
         self.navigationController = nav
+        
         rootViewController.present(nav, animated: animated)
     }
 }

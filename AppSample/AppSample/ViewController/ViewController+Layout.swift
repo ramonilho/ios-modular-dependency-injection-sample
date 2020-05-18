@@ -6,8 +6,11 @@ extension ViewController {
     func setupButton() {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = .systemGray
+        button.backgroundColor = .black
         button.setTitle("START FEATURE", for: .normal)
+        button.layer.borderColor = UIColor.systemGreen.cgColor
+        button.layer.borderWidth = 5
+        button.layer.cornerRadius = 10
         
         view.addSubview(button)
         
@@ -39,6 +42,7 @@ extension ViewController {
     func setupLayout() {
         setupButton()
         setupSwitch()
-        view.backgroundColor = .black
+        
+        view.backgroundColor = .white
     }
 }

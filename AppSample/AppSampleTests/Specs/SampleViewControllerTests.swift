@@ -1,7 +1,7 @@
 import XCTest
 @testable import AppSample
 
-class AppSampleTests: XCTestCase {
+class SampleViewControllerTests: XCTestCase {
     
     var mockViewModel: MockViewModel!
 

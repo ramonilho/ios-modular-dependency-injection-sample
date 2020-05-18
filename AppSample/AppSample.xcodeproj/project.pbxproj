@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1216AA4D247229AB00AE6602 /* SampleViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1216AA4C247229AB00AE6602 /* SampleViewModelTests.swift */; };
 		12B7EEF6247200240050474A /* FeatureSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B7EEF5247200240050474A /* FeatureSample.framework */; };
 		12B7EEF7247200240050474A /* FeatureSample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12B7EEF5247200240050474A /* FeatureSample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		12B7EEFC247203AB0050474A /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7EEFB247203AB0050474A /* ViewControllerProtocol.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1216AA4C247229AB00AE6602 /* SampleViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewModelTests.swift; sourceTree = "<group>"; };
 		12B7EEF5247200240050474A /* FeatureSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FeatureSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B7EEFB247203AB0050474A /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
 		12B7EEFD2472053C0050474A /* SampleViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewModelProtocol.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				12B7EF0C247211A00050474A /* SampleViewControllerTests.swift */,
+				1216AA4C247229AB00AE6602 /* SampleViewModelTests.swift */,
 			);
 			path = Specs;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			files = (
 				12B7EF17247214CA0050474A /* SampleMockViewModel.swift in Sources */,
 				12B7EF0D247211A00050474A /* SampleViewControllerTests.swift in Sources */,
+				1216AA4D247229AB00AE6602 /* SampleViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
